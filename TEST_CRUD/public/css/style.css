@@ -521,9 +521,6 @@ footer {
 
 @media screen and (max-width: 1024px) {
 
-    header {
-    }
-
     h1 {
         font-size: 60px;
     }
@@ -690,8 +687,54 @@ footer {
 
 }
 
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+    
+    .contain-footer {
+        flex-direction: column;
+    }
+    
+    .contact-footer {
+        margin-top: 30px;
+    }
+    
+    .picto-footer {
+        margin-top: 30px;
+    }
+}
+
 /* JS */
 
 .changecolor {
     background-color: var(--main-color);
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    .contain-info-contact {
+        display: block;
+    }
+    
+    .info-contact-left {
+        width: 100%;
+    }
+    
+    .info-contact {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .info-contact {
+        font-size: 12px;
+    }
 }
